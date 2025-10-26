@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="white"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold">Manufacturing Prediction Workflow</text>
+  
+  <!-- Workflow Steps -->
+  <!-- Data Collection -->
+  <g transform="translate(50,100)">
+    <rect width="120" height="60" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+    <text x="60" y="35" text-anchor="middle" font-weight="bold">Data Collection</text>
+  </g>
+  
+  <!-- Preprocessing -->
+  <g transform="translate(200,100)">
+    <rect width="120" height="60" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
+    <text x="60" y="35" text-anchor="middle" font-weight="bold">Preprocessing</text>
+  </g>
+  
+  <!-- Model Training -->
+  <g transform="translate(350,100)">
+    <rect width="120" height="60" rx="5" fill="#FFF3E0" stroke="#EF6C00" stroke-width="2"/>
+    <text x="60" y="35" text-anchor="middle" font-weight="bold">Model Training</text>
+  </g>
+  
+  <!-- Validation -->
+  <g transform="translate(500,100)">
+    <rect width="120" height="60" rx="5" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2"/>
+    <text x="60" y="35" text-anchor="middle" font-weight="bold">Validation</text>
+  </g>
+  
+  <!-- Deployment -->
+  <g transform="translate(650,100)">
+    <rect width="120" height="60" rx="5" fill="#E0F7FA" stroke="#006064" stroke-width="2"/>
+    <text x="60" y="35" text-anchor="middle" font-weight="bold">Deployment</text>
+  </g>
+  
+  <!-- Arrows -->
+  <g stroke="#666" stroke-width="2" fill="none">
+    <line x1="170" y1="130" x2="200" y2="130"/>
+    <line x1="320" y1="130" x2="350" y2="130"/>
+    <line x1="470" y1="130" x2="500" y2="130"/>
+    <line x1="620" y1="130" x2="650" y2="130"/>
+  </g>
+  
+  <!-- Arrow heads -->
+  <g fill="#666">
+    <polygon points="198,130 205,127 205,133"/>
+    <polygon points="348,130 355,127 355,133"/>
+    <polygon points="498,130 505,127 505,133"/>
+    <polygon points="648,130 655,127 655,133"/>
+  </g>
+  
+  <!-- Details -->
+  <g font-size="12" fill="#666">
+    <text x="110" y="180" text-anchor="middle">Raw Data</text>
+    <text x="260" y="180" text-anchor="middle">Clean Data</text>
+    <text x="410" y="180" text-anchor="middle">Linear Regression</text>
+    <text x="560" y="180" text-anchor="middle">Accuracy Check</text>
+    <text x="710" y="180" text-anchor="middle">Web Interface</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(50,300)">
+    <text x="0" y="0" font-size="14" font-weight="bold">Process Flow:</text>
+    <text x="0" y="20" font-size="12">1. Collect manufacturing data</text>
+    <text x="0" y="40" font-size="12">2. Clean and preprocess</text>
+    <text x="0" y="60" font-size="12">3. Train regression model</text>
+    <text x="200" y="20" font-size="12">4. Validate predictions</text>
+    <text x="200" y="40" font-size="12">5. Deploy to production</text>
+  </g>
+</svg>
